@@ -74,6 +74,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin: 0px 8px;
+  margin-right: 18px; /*为了不覆盖整个Home的内阴影*/
   /* 使用flex布局，内容超出时，不会展示，需要设置overflow */
   overflow-y: auto;
 }
